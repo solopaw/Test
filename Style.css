@@ -1,0 +1,116 @@
+body 
+{
+   margin: 0;
+   padding: 0;
+   background: #efefef;
+   font-size: 16px;
+   color: #777;
+   font-family: san-serif;
+   font-weight: 300;
+}
+#login-box
+{
+   position: 0;
+   margin: 5px auto;
+   height: 400px;
+   background: #777;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+
+}
+.left-box{
+   position: absolute;
+   top: 0;
+   bottom:0 ;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 300px;
+   height: 400px;
+}
+h1{
+   margin:0 0 20px 0;
+   font-weight: 300;
+   font-height: 28px;
+}
+input[type="text"],
+input[type="password"]
+{
+   display:block;
+   margin-botom: 5px auto;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   padding: 4px;
+   width: 220px;
+   height: 32px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #aaa;
+   font-family: sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   transition: 0.2s ease;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+   background:#ff5722;
+   transition: 0.2s ease;
+}
+.right-box{
+   position: absolute;
+   top: 0;
+   bottom:0 ;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 300px;
+   height: 400px;
+   background-image: image();
+   background-size: cover;
+   background-position: centre;
+}
+.or{
+   position: absolute;
+   top: 180px;
+   left: 280px;
+   width: 40px;
+   height: 40px;
+   background:#efefef;
+   border-radius:#efefef;
+   box-shadow:#efefef;
+   line-height: cover;
+   text-align: centre;
+}
+.rightbox .signinwith
+ {
+   display: block;
+   margin-bottom: 180px;
+   color: 280px;
+   text-align: centre;
+   text-shadow:0 2px 4px rgba(0,0,0,0.6);
+
+}
+.button.social 
+{
+   margin-botom: 20px;
+   width: 220px;
+   height: 32px;
+   border: none;
+   border-radius: none;
+   border-bottom: 1px solid #aaa;
+   color:#fff;
+   font-family: sans-serif;
+   font-weight: 500;
+   transition: 0.2s ease;
+   cursor:pointer;
+}
+.facebook
+{
+   background: #32508e;
+}
+.twitter
+{
+   background: #55acee;
+}
+.google
+{
+   background: #dd4b39;
+}
