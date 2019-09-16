@@ -1,7 +1,15 @@
 <html>
 <head>
 <style>
+
+#grad1 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+
 ul {
+  
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,17 +42,18 @@ li a:hover {
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+<div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+Gradient Background
+</div>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support gradients.</p>
 
 </body>
-<!DOCTYPE html>
+</html>
+
+</body>
 <html>
 <head>
-<style>
-#grad1 {
-  height: 55px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
-}
 </style>
 </head>
 <body>
